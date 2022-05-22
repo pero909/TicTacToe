@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+
+
+}
+#Title{
+    text-align:  center;
+    font-family: "Century Gothic", serif;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: lightgrey;
+    margin: 0;
+
+}
+header{
+    background-color: lightgrey;
+    height: 85px;
+}
+#winningMessage{
+    display: none;
+}
+#container{
+    display: flex;
+    margin-top: 40px;
+    align-content: center;
+    justify-content: center;
+
+}
+#board{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
